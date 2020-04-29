@@ -1,0 +1,33 @@
+{
+  "name": "e2e-testing-helpers",
+  "version": "0.0.1-beta",
+  "description": "e2e Test Helpers for Jasmine, Protractor, and Angular 8+. Written in Typescript.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChadESmith42/e2e-testing-helpers.git"
+  },
+  "keywords": [
+    "e2e",
+    "testing",
+    "helpers",
+    "jasmine",
+    "protractor",
+    "angular",
+    "typescript"
+  ],
+  "author": {
+    "name": "Chad Smith",
+    "email": "chad.e.smith@outlook.com",
+    "url": "http://codingbychad.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChadESmith42/e2e-testing-helpers/issues"
+  },
+  "homepage": "https://github.com/ChadESmith42/e2e-testing-helpers#readme",
+  "dependencies": {
+    "protractor": "^5.4.4"
+  }
+}

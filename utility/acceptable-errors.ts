@@ -22,10 +22,8 @@ describe('End-to-end test for something in development', () => {
     const acceptableErrors = browser.params.acceptableErrors; // Get expected/acceptable errors from protractor.config
     if (logs) {
       for (const l of logs) {
-        const acceptableError = acceptableErrors.filter(x => x === l.message); // Always returns an array, could be empty;
-        if (acceptableError.length > 0) {
-          logs = logs.filter(log => log.message !== acceptableError[0]);
-        }
+        const otherErrors = acceptableErrors.filter(x => x !== l.message); // Always returns an array, could be empty;
+        logs = otherErrors || [];
       }
     }
     expect(logs).not.toContain(jasmine.objectContaining({

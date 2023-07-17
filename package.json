@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/ChadESmith42/e2e-testing-helpers#readme",
   "dependencies": {
-    "protractor": "^5.4.4"
+    "protractor": "^7.0.0"
   }
 }
